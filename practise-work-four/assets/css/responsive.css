@@ -1,0 +1,49 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-product-list-item {height: 250px; margin-bottom: 15px;}
+    .single-product-list-item:nth-child(2) {height: 520px;}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .big-menu li {font-size: 30px;}
+    .big-menu li a {padding-top: 130px;}
+    .single-product-list-item {width: 33.3333%;}
+    .single-product-list-item:nth-child(2), .single-product-list-item:nth-child(4), .single-product-list-item:nth-child(9) {width: 64.66666%;}
+    .promo-bg {padding: 20px 20px 0;}
+    .footer-area, .footer-area .text-right {text-align: center;}
+    .footer-menu ul li {padding: 0 20px;}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .header-right, .header-left ul {display: none;}
+    .homepage-slider-wrap, .homepage-slider-wrap div {height: auto;}
+    .header-top-area {background-color: #f8eeed; position: relative;}
+    .header-top-area a {padding: 15px 15px 5px;}
+    .slide-text-tablecell {font-size: 50px; line-height: 60px; text-align: center; padding: 50px 0;}
+    .owl-carousel .owl-item .single-slide-item img {display:none;}
+    .big-menu li {float: none; width: auto; font-size: 40px;}
+    .big-menu li a {padding: 50px; text-align: center;}
+    .big-menu li:nth-child(2), .big-menu li:nth-child(3) {width: auto;}
+    .single-product-list-item, .single-product-list-item:nth-child(2), .single-product-list-item:nth-child(3), .single-product-list-item:nth-child(4), .single-product-list-item:nth-child(9)  {width: 100%; float: none;}
+    .promo-content {padding: 20px;}
+    .promo-bg {padding-top: 10px;}
+    .promo-title h2 {font-size: 22px;}
+    .promo-title span.year-text {left: 30%; font-size: 67px;}
+    .product-promotion .owl-dots {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+}
+    .product-promotion .owl-dots div {display: inline-block; margin: 5px;}
+    .footer-area, .footer-area .text-right {text-align: center;}
+    .footer-menu ul li {padding: 0 10px;}
+    input[type=submit] {margin-top: 10px;}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
