@@ -1,0 +1,243 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+img {
+	max-width: 100%;
+}
+body {
+	font-family: 'Roboto', sans-serif; 
+}
+/*=========== Starting Header section ========*/
+.header_area {
+	background-image:url('../img/1477655696778.jpg');
+	width: 1360px;
+    height: 384px;
+    background-size: cover;
+    background-position: center; 
+    border-bottom: 2px solid #98ceee;
+}
+
+.header {
+	background-color: #2595ddb3;
+	width: 1360px;
+    height: 384px;
+    background-size: cover;
+    background-position: center; 
+}
+.header h1 {
+	color: #fff;
+	padding: 20px 25px;
+	font-size: 20px;
+}
+.header h1:hover {
+	padding: 25px 30px;
+	font-size: 25px;
+}
+.header p {
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	padding-top: 68px;
+	font-weight: 300;
+}
+.header p span {
+	font-weight: 700;
+}
+.header p span:hover {
+	color: #030512b3;
+}
+.achivements {
+	color: #fff;
+	margin-left: 286px;
+	margin-top: 48px;
+}
+.single_achivement {
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	width: 200px;
+}
+.single_achivement a {
+	text-decoration: none;
+	color: #fff;
+}
+.single_achivement a:hover {
+	color: #032a09;
+}
+.single_achivement a i {
+	font-size: 25px;
+	padding-bottom: 20px;
+	font-weight: 300;
+}
+.single_achivement h2 {
+	font-size: 16px;
+	font-weight: 300;
+}
+/*=========== Starting Start Up Area ========*/
+.stratup_area{
+	background: #fff;
+	height: auto;
+	max-width: 100%;
+	padding-bottom: 10px;
+}
+.stratup {
+	color: #838487;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: justify;
+	background: #fff;
+}
+.stratup h2{
+	text-align: center;
+	font-weight: 300;
+	color: #3d4256;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+.startup_left {
+	float: left;
+	width: 400px;
+	margin-left: 230px; 
+}
+.startup_right {
+	float: right;
+	width: 400px;
+	margin-right: 230px;
+}
+.stratup img {
+	padding-top: 20px;
+}
+/*=========== Starting Latest works Area ========*/
+.latest_works_area {
+	background-color: #f5f5f5;
+	max-width: 100%;
+	height: auto;
+	border-bottom: 2px solid #949496;
+}
+.latest_works {
+	color: #838487;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: justify;
+}
+.latest_works h2 {
+	text-align: center;
+	font-weight: 300;
+	color: #3d4256;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.latest_works p {
+	text-align: center;
+	font-weight: 300;
+	line-height: 18px;
+	padding-bottom: 40px;
+}
+.latest_image {
+	position: relative;
+	line-height: 0px;
+	border-bottom: 2px solid #41667d;
+}
+.latest_single_image {
+	display: inline-block;
+	line-height: 0px;
+	float: left;
+	/*margin-top: -4px;*/
+}
+.latest_single_image img{
+	width:269px;
+}
+.single_para {
+	text-align: center;
+	line-height: 80px;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+.latest_logos {
+	width: 800px;
+	min-height: 80px;
+	background: none;
+	padding-left: 334px;
+}
+.latest_single_logo {
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+/*=========== Starting Footer Up Area ========*/
+.footer_area {
+	background-image:url('../img/golden-gate-bridge-elevated.jpg');
+	width: 1360px;
+    height: 320px;
+    background-size: cover;
+    background-position: center; 
+    border-bottom: 2px solid #98ceee;
+}
+.footer_up {
+	background-color: #282a2cb3;
+	width: 1360px;
+    height: 320px;
+    background-size: cover;
+    background-position: center; 
+}
+.footer_up p {
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 80px;
+	font-weight: 300;
+}
+.footer_up p span {
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 50px;
+}
+.request-info {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	max-width: 160px;
+	font-size: 10px;
+	padding: 8px 0px;
+	margin: 0 auto; 
+	border-radius: 15px;
+}
+.request-info:hover {
+	color: #002E5A;
+	border: 1px solid #002E5A;
+	background: #fff;
+}
+
+/*=========== Starting Footer section ========*/
+.footer {
+	background: #22a7f0;
+	max-width: 100%;
+	min-height: 60px;
+}
+.footer_down {
+	max-width: 200px;
+	margin: 0 auto;
+}
+.footer_down ul {
+	list-style: none;
+}
+.footer_down ul li {
+	float: left;
+}
+.footer_down ul li a {
+	display: block;
+    padding: 16px;
+	color: #fff;
+	font-size: 18px;
+}
+.footer_down ul li a:hover {
+	color: #002E5A;
+	font-size: 24px;
+
+}
