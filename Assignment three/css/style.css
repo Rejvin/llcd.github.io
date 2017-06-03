@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    background: url('../img/body1.jpg') no-repeat center center / cover;
+
+}
+
+h1,h2,h3,h4 {
+    margin: 15px 0;
+}
+
+a {
+    color: #4fb510;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.page-wrapper {
+    width: 90%;
+    height: auto;
+    background:#ffffff;
+    margin: 0 auto;
+    border-top: 5px solid #194B64;
+}
+
+.pull-left {
+	float:left;
+}
+
+.pull-right {
+	float:right;
+}
+
+.clearfix {
+	clear: both;
+	width: 100%;
+	height: 0;
+}
+
+/*---------   Header Top css   ----------*/
+.header-top-area {}
+.header-logo {margin: 10px 30px;}
+.header-logo img {}
+.header-right {margin: 20px 30px;}
+.header-right p {letter-spacing: 4px;}
+
+/*---------   Navigation Area css   ----------*/
+.navigation-area {
+	width: 100%;
+	background: #3275A0;
+	border-top: 1px solid #337490;
+	border-bottom: 1px solid #F3F8FC;
+}
+.navigation-area ul {margin: 0; padding: 0;text-align: center;}
+.navigation-area ul li {display: inline-block; padding: 20px 20px;}
+.navigation-area ul li a {
+	padding: 20px 46px;
+	color: #fff;
+	font-weight: 700;
+}
+.navigation-area ul li a:hover {
+	background: #03080C;
+}
+.spacebar {color: #fff; margin-left: 40px; padding: 20px 30px;}
+
+/*---------   Background-img Area css   ----------*/
+.background-img-area {}
+.background-img {}
+.background-img img {width: 100%;height: 400px;}
+
+/*---------  HTML Area css   ----------*/
+.html-body-area {border-bottom: 1px solid #D3EAF6;}
+.html-body {background-color: none;}
+.html-body h1 {text-align: center; padding-top: 10px; color: #296E8D;}
+.html-body-left {background-color: none; width:50%; padding: 45px 157px;}
+.html-body-right {background-color: none; width:50%; padding: 8px 157px;}
+.html-body-right p {text-align: justify;}
+
+/*---------   CSS Area css   ----------*/
+.css-body-area {border-bottom: 1px solid #D3EAF6; height:600px;}
+.css-body {background-color: none;}
+.css-body h1 {text-align: center; padding-top: 10px; color: #D33044;}
+.css-body-left {background-color: none; width:50%; padding: 45px 157px;}
+.css-body-left img {width:450px; height:350px;}
+.css-body-right {background-color: none; width:50%; padding: 8px 157px;}
+.css-body-right p {text-align: justify;}
+
+/*---------   Footer Area css   ----------*/
+.page-footer-area {border-bottom: 5px solid #194B64}
+.page-footer {background: #3275A0; height: 50px; color: #fff;}
+.page-footer-left {padding: 15px 20px;}
+.page-footer-right {padding: 15px 20px;}
+.page-footer-right span:hover {color: #F0F0F0; cursor: pointer;}
+
+/*---------   HTML page Area css   ----------*/
+.html-header {
+	text-align: center;
+	background: #F06428;
+	color: #fff;
+	width:50%;
+	margin: 0 auto;
+	padding: 5px 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.html-header h1 {}
+table, td, th {border: 1px solid #667AA3; padding-left: 10px;}
+table {width: 90%;border-collapse: collapse; margin-left: 5%; margin-bottom: 20px;}
+th {text-align: left; height:50px;}
+tr {}
+td {height:50px;} 
+.css-header {
+	text-align: center;
+	background: #2BB7E5;
+	color: #fff;
+	width:50%;
+	margin: 0 auto;
+	padding: 5px 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
