@@ -1,0 +1,54 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.works-area h1 {background-color: red;}
+	.gray-area img {padding-left: 80px;}
+	.big-content {padding: 110px 0px;}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.works-area h1 {background-color: green;}   
+	.mainmenu a{padding: 13px 25px;}
+	.single-service-icon {
+		min-height: 80px;
+		margin-bottom: 0px;
+		padding: 0px;
+	}
+	.gray-area img {padding-left: 26px;}
+	.gray-bg  {height: 460px; width: 350px;}
+	.big-content {
+		padding-top: 132px;
+		padding-left: 400px;
+		font-size: 20px;
+	}
+	.gray-bg p {padding-bottom: 35px;}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.works-area h1 {background-color: yellow;}
+    .logo {margin-bottom: 20px;}
+	.logo, .mainmenu {text-align: center;}
+	.mainmenu a{padding: 13px 15px;}
+	.header-content-area {padding-top: 50px;}
+	.header-gradient-area {padding-top: 40px; padding-bottom: 50px;}
+	.section-padding {padding: 50px 0;}
+	.single-works-area {margin-bottom: 50px;}
+	.single-service-icon {min-height: 100px; padding: 10px 20px;}
+	.footer-area, .footer-area .text-right {text-align: center;}
+	.footer-area .text-right {margin-top: 20px;}
+	.gray-area img {padding-left: 20px; height: 50px; width: 70px;}
+	.gray-area {padding: 20px 0;}
+	.testimonial-slide-area {padding: 80px 0;}	
+	.mainus-margin {display: none;}
+	
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.works-area h1 {background-color: cyan;}
+	.logo {margin-bottom: 20px;}
+	.logo, .mainmenu {text-align: center;}
+	.single-works-area {margin-bottom: 50px;}
+	.gray-area img {padding-left: 30px; height: 50px; width: 130px;}
+	.footer-area, .footer-area .text-right {text-align: center;}
+	.footer-area .text-right {margin-top: 20px;}
+	.single-service-icon {min-height: 100px; padding: 10px 140px;}
+}
