@@ -1,0 +1,106 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #353535;
+}
+h2 {font-size: 32px;}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #565656;
+    background-color: #fafafa;
+}
+a:hover { text-decoration: none }
+
+.blog-box-bg-1 {background-image: url(../img/blog-box-bg-1.jpg);}
+.blog-box-bg-2 {background-image: url(../img/blog-box-bg-2.jpg);}
+.blog-box-bg-3 {background-image: url(../img/blog-box-bg-3.jpg);}
+.blog-box-bg-4 {background-image: url(../img/blog-box-bg-4.jpg);}
+
+.section-title {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 70px;
+    color: #565656;
+}
+.section-title h2 {color: #3a3a3a;}
+section.section-padding {padding: 100px 0;}
+.blog-box-bg {
+    background-position: center center;
+    background-color: #ddd;
+    height: 200px;
+    background-size: cover;
+}
+.single-box .blog-box-bg{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.single-box .blog-box-content{
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.blog-box-content {
+    background-color: #ffffff;
+    padding: 20px;
+    transition: .3s;
+}
+.blog-box-content i.fa{
+    color: #25d074; 
+    font-size: 14px;
+    margin-left: 10px;
+}
+.blog-box-content h3 {font-size: 20px; margin-top: 15px;}
+.blog-readmore-btn {
+    color: #25d074;
+    font-size: 14px;
+    padding: 10px 0px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-top: 5px;
+    transition: .2s;
+}
+.blog-box-content .blog-readmore-btn:hover {
+    background: #25d074;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 50px;
+    margin-top: 5px;
+    transition: .2s;
+    box-shadow: 0 0 2px #25d074;
+}
+.blog-box-content .blog-readmore-btn:hover i.fa {color:#fff;}
+.single-box:hover {
+    border-color: #2fa55e;
+    box-shadow: 0 0 30px #ddd;
+    border-radius: 2px;
+}
+.blog-box-content:hover i.fa{
+    color: #25d074; 
+}
