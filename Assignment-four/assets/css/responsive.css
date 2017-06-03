@@ -1,0 +1,67 @@
+/* Medium Layout: 1280px. */
+@media only screen and (max-width: 1280px) { 
+    .wrapper {padding: 2% 15%;} 
+}
+/* Tablet Layout: 992px. */
+@media only screen and (max-width: 992px) { 
+    .wrapper {padding: 2% 5%;}
+    
+}
+/* Tablet Layout: 767px. */
+@media only screen and (max-width: 767px) { 
+    .wrapper {padding: 2% 2%;}
+    .heading-top h1 a {font-size: 35px;}
+    figure {padding-top: 10px;}
+    .single-social-item {width: 49%; margin-left: 1%;}
+    .single-social-item-res {padding-bottom: 2%;}
+    .footer-top-title h2 a {font-size: 16px; padding-top: 10px;}
+    footer p {margin-left: 73%;}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 480px) { 
+	.wrapper {padding: 2% 2%;}
+    .heading-top h1 a {font-size: 30px;}
+    nav ul li a {padding: 10px 10px; font-size: 12px;}
+    aside {text-align: center;}
+    aside .aside-left {width: 100%;}
+	aside .aside-right {width: 100%;}
+	hgroup h2 {font-size: 28px;}
+	hgroup h3 a {font-size: 20px;}
+    figure {padding-top: 10px;}
+    .single-section-item {width: 100%; height: 200px;}
+    .single-section-item-left {width: 100%;}
+    .single-section-item-right {width: 100%;}
+    .single-section-item-right p {text-align: justify;}
+    .single-social-item {width: 100%;}
+    .single-social-item-padding {padding: 12% 0;}
+    .footer-top-title {width: 70%;}
+    .footer-top-logo {width: 20%;}
+    .footer-top-para {width: 100%; padding-top: 2%;}
+    .footer-top-title h2 a {font-size: 16px; padding-top: 10px;}
+    footer p {margin-left: 56%;}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 320px) { 
+ 	.wrapper {padding: 2% 2%;}
+    .heading-top h1 a {font-size: 25px;}
+    nav ul li a {padding: 10px 10px; font-size: 12px;}
+    aside .aside-left {width: 100%;}
+	aside .aside-right {width: 100%;}
+	hgroup h2 {font-size: 25px;}
+	hgroup h3 a {font-size: 18px;}
+    figure {padding-top: 10px;}
+    .single-section-item {width: 100%; height: 240px;}
+    .single-section-item-left {width: 100%;}
+    .single-section-item-right {width: 100%;}
+    .single-section-item-right p {text-align: justify;}
+    .single-social-item {width: 100%;}
+    .single-social-item-padding {padding: 12% 0;}
+    .footer-top-title {width: 70%;}
+    .footer-top-logo {width: 20%;}
+    .footer-top-para {width: 100%; padding-top: 5%;}
+    .footer-top-title h2 a {font-size: 16px; padding-top: 10px;}
+    footer p {margin-left: 35%;}
+    
+}
